@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/mainLl"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Selecione o idioma:"
+    />
+    <Spinner
+            android:id="@+id/idiomasSp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+    />
+    <Button
+            android:id="@+id/buscarRegioesBt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:text="Buscar regiões"
+    />
+    <TextView
+            android:id="@+id/regioesTv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+    />
+</LinearLayout>
